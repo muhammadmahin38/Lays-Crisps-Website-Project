@@ -442,3 +442,39 @@ h3 {
         padding: 5.0rem;
     }
 } 
+@media (max-width: 576px) {
+    .hero-content h1 {
+        font-size: 5.3rem;
+    }
+    .hero-content p {
+        font-size: 1.8rem;
+    }
+    .featured-product-area {
+        background-position: 98% 8%;
+    }
+    .featured-product-image img {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    .all-products-content h2 {
+        padding-top: 8.0rem;
+    }
+    .crisps-video-container {
+        padding-left: 6rem;
+    }
+    .crisps-video-container .card {
+        display: block;
+        width: 90%;
+        
+    }
+    .clients-name p {
+        line-height: 2rem;
+    }
+}
+@media (max-width: 375px) {
+    html {
+        font-size: 20.5%;
+    
+    }
+}
