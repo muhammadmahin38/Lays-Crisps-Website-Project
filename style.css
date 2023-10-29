@@ -497,7 +497,9 @@ h3 {
     }
     .hero-content p {
         font-size: 1.7rem;
-        padding-top: 2.0rem;
+        padding: 2.0rem 2.0rem 3.0rem 0;
+        /* padding-top: 2.0rem;
+        padding-right: 2.0; */
     }
     .featured-product-heading h2 {
         width: 95%;
@@ -517,7 +519,7 @@ h3 {
         padding: 3.0rem 2.0rem 6.0rem 2.0rem;
     }
     .products :first-child {
-        width: 70%; 
+        width: 100%; 
     }
     .crisps-video-area {
         padding: 0;
