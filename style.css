@@ -473,8 +473,91 @@ h3 {
     }
 }
 @media (max-width: 375px) {
-    html {
+    body {
         font-size: 22.5%;
     
+    }
+    .hero-area{
+        background: linear-gradient(180deg, #02B5EA 0%, rgba(2, 181, 234, 0.15) 100%)
+        ,url(images/Union\ \(1\).png)no-repeat top center;
+        padding: 7.0rem 0rem 7.0rem 2.0rem;
+    }
+    .hero-container img {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .hero-content {
+        padding: 0;
+    }
+    .hero-content h1 {
+        font-size: 4.3rem;
+        line-height: 5.3rem;
+    }
+    .hero-content p {
+        padding-top: 2.0rem;
+    }
+    .featured-product-heading h2 {
+        width: 95%;
+        padding-left: 2rem;
+    }
+    .featured-product-area {
+        background-position: 98% 8%;
+    }
+    .featured-product-content {
+        padding-left: 3rem;
+    }
+    .all-products-content p {
+        width: 80%;
+    }
+    .all-products-grid {
+        padding: 3.0rem 2.0rem 6.0rem 2.0rem;
+    }
+    .crisps-video-area {
+        padding: 0;
+    }
+    .crisps-video-container {
+        display: block;
+        padding-left: 3.0rem;
+        margin: 2.0rem auto;
+    }
+    .crisps-video-area .arrow {
+        padding-bottom: 3.0rem;
+    }
+    .testimonial-area {
+        padding: 3.0rem 0;
+    }
+    .testimonial-image img {
+        display: block;
+        width: 300px;
+        margin: auto;
+    }
+    .testimonial-content {
+        width: 326px;
+    }
+    .testimonial-wraper-container {
+        flex-direction: column;
+        gap: 3.0rem;
+    }
+    .content-area {
+        padding: 6.0rem 0;
+    }
+    .footer-image,.footer-nav,.copyright-section {
+        padding: 0;
+    }
+    .footer-nav ul {
+        padding: 0;
+    }
+    .footer-nav ul li {
+        padding-right: 1rem;
+        line-height: 3.5rem;
+
+    }
+    .footer-area-container {
+        padding: 3.0rem;
+    }
+    .footer-img img {
+        width: 98%;
+        padding: 3.0rem 0;
     }
 }
