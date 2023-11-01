@@ -58,6 +58,9 @@ h3 {
     line-height: 2.8rem;
     text-decoration: none;
 }
+.navbar ul li a:hover {
+    color: #02B5EA;
+}
 .sign-up-btn {
     color: #ffffff;
     background-color: var(--color-3);
@@ -66,6 +69,9 @@ h3 {
     padding: 1.2rem 2.4rem;
     text-decoration: none;
     border-radius: 5px;
+}
+.sign-up-btn:hover {
+    background-color: #1ebded;
 }
 /* Header-Design-End */
 
@@ -113,6 +119,9 @@ h3 {
     padding: 1.5rem 3.5rem;
     text-decoration: none;
     border-radius: 5px; 
+}
+.btn:hover {
+    background-color: #02B5EA;
 }
 /* Hero-Design-End */
 /* Featured-Product-Area-Start */
@@ -298,6 +307,9 @@ h3 {
     font-weight: 400;
     padding-right: 2.0rem;
 }
+.footer-nav ul li:hover {
+    color: #02B5EA;
+}
 .copyright-section {
     color: #182327;
     font-size: 2.0rem;
@@ -344,7 +356,9 @@ h3 {
     .navbar {
         display: none;
     }
-    .header-search-bar,.header-login,.header-button{
+    .header-search-bar,
+    .header-login,
+    .header-button{
         display: none;
     }
     .hero-area {
@@ -370,20 +384,20 @@ h3 {
     .featured-product-area {
         padding: 0; 
         background-position: 98% 5%;
-    } 
-    .featured-product-heading h2 {
-        width: 70%;
-        padding-left: 6.0rem;
     }
     .featured-product-container {
         flex-direction: column;
         gap: 3.0rem;
 
-    }
+    } 
     .featured-product-content {
         padding-left: 8.0rem;
         flex-direction: column-reverse;
         order: 2;
+    }
+    .featured-product-heading h2 {
+        width: 70%;
+        padding-left: 6.0rem;
     }
     .featured-product-image img {
         padding-top: 3.0rem;
@@ -394,14 +408,14 @@ h3 {
         width: 100%;
         padding: 7.0rem 0;
     }
+    .all-products-grid {
+        grid-template-columns: 1fr;
+    }
     .all-products-content h2 {
         padding-top: 3.0rem;
     }
     .all-products-content p {
         width: 70%;
-    }
-    .all-products-grid {
-        grid-template-columns: 1fr;
     }
     .crisps-video-area {
         width: 100%;
@@ -501,16 +515,15 @@ h3 {
         /* padding-top: 2.0rem;
         padding-right: 2.0; */
     }
-    .featured-product-heading h2 {
-        width: 95%;
-        padding-left: 2rem;
-    }
     .featured-product-area {
         background-position: 98% 8%;
     }
-
     .featured-product-content {
         padding-left: 3rem;
+    }
+    .featured-product-heading h2 {
+        width: 95%;
+        padding-left: 2rem;
     }
     .all-products-content p {
         width: 80%;
@@ -550,7 +563,9 @@ h3 {
     .content-area {
         padding: 6.0rem 0;
     }
-    .footer-image,.footer-nav,.copyright-section {
+    .footer-image,
+    .footer-nav,
+    .copyright-section {
         padding: 0;
     }
     .footer-nav ul {
@@ -569,3 +584,4 @@ h3 {
         padding: 3.0rem 0;
     }
 }
+/* Design by Muhammad Mahin */
